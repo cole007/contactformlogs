@@ -1,0 +1,14 @@
+{
+	"name": "/contactformlogs",
+	"description": "Plugin to extend the use of contact forms by logging records of all emails sent from the CMS",
+	"type": "craft-plugin",
+	"authors": [
+		{
+			"name": "@cole007",
+			"homepage": "http://ournameismud.co.uk/"
+		}
+	],
+	"require": {
+		"composer/installers": "~1.0"
+	}
+}

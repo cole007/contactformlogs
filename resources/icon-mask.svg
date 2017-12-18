@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   height="28.75"
+   width="28.75"
+   id="svg2"
+   y="0px"
+   x="0px"
+   version="1.1"
+   viewBox="0 0 28.75 28.75">
+  <metadata
+     id="metadata22">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>22 -Wood Log- (Solid)</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs20" />
+  <title
+     id="title4">22 -Wood Log- (Solid)</title>
+  <desc
+     id="desc6">Created with Sketch.</desc>
+  <g
+     transform="translate(2.8752359,2.867)"
+     style="fill:none;fill-rule:evenodd;stroke:none;stroke-width:1"
+     id="g8">
+    <g
+       style="fill:#000000"
+       id="g10">
+      <path
+         id="path12"
+         d="m 19.8618,13.924 -0.862,-0.495 0,-2.072 1.748,1.68 -0.886,0.887 z m -4.862,3.084 c 0,0.553 -0.448,1 -1,1 -0.552,0 -1,-0.447 -1,-1 l 0,-1 c 0,-0.552 0.448,-1 1,-1 0.552,0 1,0.448 1,1 l 0,1 z m -4,-5 c 0,0.553 -0.448,1 -1,1 -0.552,0 -1,-0.447 -1,-1 l 0,-1 c 0,-0.552 0.448,-1 1,-1 0.552,0 1,0.448 1,1 l 0,1 z m 1,-10 c 3.052,0 5,1.185 5,2 0,0.816 -1.948,2 -5,2 -3.052,0 -5,-1.184 -5,-2 0,-0.815 1.948,-2 5,-2 l 0,0 z m 10.572,10.008 -3.572,-3.433 0,-4.575 c 0,-2.28 -3.009,-4 -7,-4 -3.991,0 -7,1.72 -7,4 l 0,6.92 -1.021,-0.817 c 0.004,-0.035 0.021,-0.066 0.021,-0.103 l 0,-2 c 0,-0.552 -0.448,-1 -1,-1 -0.552,0 -1,0.448 -1,1 l 0,0.52 -0.375,-0.3 c -0.43,-0.345 -1.061,-0.276 -1.406,0.156 -0.345,0.431 -0.275,1.061 0.157,1.405 l 4.624,3.7 0,6.519 c 0,1.795 2.813,3 7,3 4.253,0 7,-1.177 7,-3 l 0,-4.273 0.078,0.045 c 0.255,0.199 0.562,0.299 0.87,0.299 0.362,0 0.724,-0.137 1,-0.413 l 1.637,-1.638 c 0.268,-0.266 0.415,-0.622 0.415,-0.999 0,-0.378 -0.147,-0.733 -0.428,-1.013 l 0,0 z" />
+    </g>
+  </g>
+</svg>
