@@ -34,5 +34,5 @@ Some things to do, and ideas for potential features:
 
 * Release it
 
-Brought to you by [@cole007](http://ournameismud.co.uk/)
+Brought to you by [@cole007](http://ournameismud.co.uk/)  
 Icon via Noun Project from [Ben Davis, RO](https://thenounproject.com/search/?q=logs&i=828711)
