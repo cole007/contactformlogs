@@ -16,8 +16,8 @@ Contact Form Logs works on Craft 2.4.x and Craft 2.5.x.
 
 ## Contact Form Logs Overview
 
-This plugin is used to log submissions from the Craft Contact Form.
-It also creates an area in the CMS for viewing sent messages and provides variables for browsing messages in the front-end.
+This plugin is used to log submissions from the Craft Contact Form.  
+It also creates an area in the CMS for viewing sent messages and provides variables for browsing messages in the front-end.  
 Contact Form Logs provides the ability to log multiple forms on a site by adding an optional `form` field. 
 
 ## Configuring Contact Form Logs
@@ -26,13 +26,14 @@ You can change the name/label for Contact Form Logs within the Plugin settings b
 
 ## Using Contact Form Logs
 
-Visting the Contact Form Logs area of the CMS will provide a list of messages posted through the Contact Form plugin.
-These can be filtered by clicking on the form name shown in the Form column.
+Visting the Contact Form Logs area of the CMS will provide a list of messages posted through the Contact Form plugin.  
+These can be filtered by clicking on the form name shown in the Form column.  
 Message details can be viewed by clicking on the email subject.
 
 ### Extending Contact Form
 
 There are two additional functions that can be used.
+
 1. You can add a 'form' input to your forms which means you can differentiate the logs available for different forms on your site
 2. There are two new fields available: `firstName` and `lastName` if you need to capture these separately (rather than simply `fromName`). Contact Form Logs will concatenate these for the purposes of the Contact Form plugin but store these as separate fields.
 
@@ -40,21 +41,21 @@ There are two additional functions that can be used.
 
 You can use `{% set logs = craft.contactformlogs.logs( ) %}` to fetch all message logs available or filter these by defining a criteria to filter against, for example `{% set vars = { form: 'Contact Form } %}` then `{% set logs = craft.contactformlogs.logs( vars ) %}`. For each log entry the following variables are available:
 
-- `log.form` String
-- `log.fromName` String
-- `log.fromEmail` String
-- `log.toEmail` String
-- `log.subject` String
-- `log.message` String
-- `log.htmlMessage` HTML String
-- `log.messageFields` JSON object
-- `log.status` String (either `holding` or `sent`)
-- `log.timestamp` - a DateTime object
+* `log.form` String
+*  `log.fromName` String
+*  `log.fromEmail` String
+*  `log.toEmail` String
+*  `log.subject` String
+*  `log.message` String
+*  `log.htmlMessage` HTML String
+*  `log.messageFields` JSON object
+*  `log.status` String (either `holding` or `sent`)
+*  `log.timestamp` - a DateTime object
 
 ## How it works
 
-The Contact Form plugin doesn't have a post send hook so the logs are recorded in a two-step process.
-On the `contactForm.beforeSend` event the plugin detects a submisssion from the Contact Form plugin, modifies any fields (eg merges firstName and lastName into a single fullName field) and stores the message with a status of holding.
+The Contact Form plugin doesn't have a post send hook so the logs are recorded in a two-step process.  
+On the `contactForm.beforeSend` event the plugin detects a submisssion from the Contact Form plugin, modifies any fields (eg merges firstName and lastName into a single fullName field) and stores the message with a status of holding.  
 Then, on the `email.onSendEmail` event the plugin checks to see if a message has been logged in the last ten minutes that matches the status and sender email and changes any records to `sent` as well as update the record for the subject of the message (this is to deal with the Contact Form dynamically generates subject if variables are present).
 
 ## Contact Form Logs Roadmap
