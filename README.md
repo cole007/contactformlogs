@@ -34,7 +34,7 @@ Message details can be viewed by clicking on the email subject.
 
 There are two additional functions that can be used.
 1. You can add a 'form' input to your forms which means you can differentiate the logs available for different forms on your site
-2. There are two new fields available: `firstName` and `lastName` if you need to captuire these separately (rather than simply `fromName`). Contact Form Logs will concatenate these for the purposes of the Contact Form plugin but store these as separate fields.
+2. There are two new fields available: `firstName` and `lastName` if you need to capture these separately (rather than simply `fromName`). Contact Form Logs will concatenate these for the purposes of the Contact Form plugin but store these as separate fields.
 
 ### Variables available
 
